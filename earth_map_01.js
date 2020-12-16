@@ -208,7 +208,7 @@
     .attr("type", "range")
     .attr("min", 0.1)
     .attr("max", 4)
-    .attr("step", 0.01)
+    .attr("step", 0.001)
     .attr("value", beamRadiusDegrees)
     .attr("class", "slider")
     .attr("id", "beamRadiusSlider")
