@@ -269,7 +269,7 @@
   }
 
   function zoomed() {
-    svg.attr("transform", `scale(${d3.event.transform.k})`);
+    svg.selectAll("Path").attr("transform", d3.event.transform);
   }
 
   //callback function to draw the satellite beams on the globe
